@@ -1,0 +1,146 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libfactorial.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"conan_global_flags",
+			"conan_basic_setup",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"factorial/CMakeLists.txt",
+			"cmake-build-debug/conanbuildinfo.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 20,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 338,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 852,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 834,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 24,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-DCURL_STATICLIB=1"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/Users/zhouhao/.conan/data/libcurl/7.83.1/_/_/package/fa13ebc657c10d1702cc94ab9750b4b5b89fe4ea/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/zhouhao/.conan/data/zlib/1.2.12/_/_/package/095512ed878f14a09dd732e9f6868729dd437529/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/zhouhao/Desktop/c-test-compile/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "factorial::@d94aa637cc44e6c8475a",
+	"name" : "factorial",
+	"nameOnDisk" : "libfactorial.a",
+	"paths" : 
+	{
+		"build" : "factorial",
+		"source" : "factorial"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "factorial/factorial.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

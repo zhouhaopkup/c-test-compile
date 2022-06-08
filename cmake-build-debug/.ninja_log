@@ -1,0 +1,9 @@
+# ninja log v5
+0	34	1654675628193830852	CMakeFiles/c_test_compile.dir/main.c.o	fa7895dbedfee9da
+34	64	1654675628224899304	c_test_compile	3a984f92256c5c71
+0	96	1654677541088550005	CMakeFiles/conan.c.dir/conan.c.o	20f53359ed3ee4d3
+1	97	1654677541088579671	fibonacci/CMakeFiles/fibonacci.dir/fibonacci.c.o	e950fff0c2d6f143
+1	97	1654677541088568922	factorial/CMakeFiles/factorial.dir/factorial.c.o	c19faec8ff3de3ed
+97	116	1654677541110114000	lib/libfactorial.a	12f5e6c417081682
+97	146	1654677541139311978	lib/libfibonacci.dylib	e846bccc16efecb7
+146	186	1654677541179981055	bin/conan.c	b46230b6129dcc26

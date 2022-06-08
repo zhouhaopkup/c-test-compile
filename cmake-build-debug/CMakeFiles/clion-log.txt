@@ -1,0 +1,9 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/zhouhao/Desktop/c-test-compile -B /Users/zhouhao/Desktop/c-test-compile/cmake-build-debug
+-- Conan: Adjusting output directories
+-- Conan: Using cmake global configuration
+-- Conan: Adjusting language standard
+-- This project seems to be plain C, using 'AppleClang' compiler
+-- Current conanbuildinfo.cmake directory: /Users/zhouhao/Desktop/c-test-compile/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/zhouhao/Desktop/c-test-compile/cmake-build-debug

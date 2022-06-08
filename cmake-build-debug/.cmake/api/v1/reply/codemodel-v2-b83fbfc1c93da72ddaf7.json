@@ -1,0 +1,149 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-24e265ef44eeedfc6f0f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				},
+				{
+					"build" : "fibonacci",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-fibonacci-Debug-192ac656ac09c955f450.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "fibonacci",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "factorial",
+					"jsonFile" : "directory-factorial-Debug-a92326dcb5b5625a1301.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "factorial",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "c-test-compile",
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "fibonacci",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "factorial",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "conan.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conan.c-Debug-99d56644f5849a51fdd9.json",
+					"name" : "conan.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "factorial::@d94aa637cc44e6c8475a",
+					"jsonFile" : "target-factorial-Debug-cc9958e89c86bef85224.json",
+					"name" : "factorial",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fibonacci::@0e45e420298004f98e08",
+					"jsonFile" : "target-fibonacci-Debug-22424da306dba9fb986d.json",
+					"name" : "fibonacci",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main.c-Debug-ba924eacc32b949b9b8f.json",
+					"name" : "main.c",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/zhouhao/Desktop/c-test-compile/cmake-build-debug",
+		"source" : "/Users/zhouhao/Desktop/c-test-compile"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,78 @@
+[settings]
+    arch=armv8
+    build_type=Release
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=13
+    os=Macos
+
+[requires]
+    libcurl/7.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=armv8
+    arch_build=armv8
+    build_type=Release
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=13
+    os=Macos
+    os_build=Macos
+
+[full_requires]
+    libcurl/7.83.1:fa13ebc657c10d1702cc94ab9750b4b5b89fe4ea
+    zlib/1.2.12:095512ed878f14a09dd732e9f6868729dd437529
+
+[full_options]
+    libcurl:fPIC=True
+    libcurl:shared=False
+    libcurl:with_brotli=False
+    libcurl:with_c_ares=False
+    libcurl:with_ca_bundle=None
+    libcurl:with_ca_path=None
+    libcurl:with_cookies=True
+    libcurl:with_crypto_auth=True
+    libcurl:with_dict=True
+    libcurl:with_docs=False
+    libcurl:with_file=True
+    libcurl:with_ftp=True
+    libcurl:with_gopher=True
+    libcurl:with_http=True
+    libcurl:with_imap=True
+    libcurl:with_ipv6=True
+    libcurl:with_largemaxwritesize=False
+    libcurl:with_ldap=False
+    libcurl:with_libidn=False
+    libcurl:with_libpsl=False
+    libcurl:with_librtmp=False
+    libcurl:with_libssh2=False
+    libcurl:with_mqtt=True
+    libcurl:with_nghttp2=False
+    libcurl:with_ntlm=True
+    libcurl:with_ntlm_wb=True
+    libcurl:with_pop3=True
+    libcurl:with_proxy=True
+    libcurl:with_rtsp=True
+    libcurl:with_smb=True
+    libcurl:with_smtp=True
+    libcurl:with_ssl=darwinssl
+    libcurl:with_symbol_hiding=False
+    libcurl:with_telnet=True
+    libcurl:with_tftp=True
+    libcurl:with_threaded_resolver=True
+    libcurl:with_unix_sockets=True
+    libcurl:with_verbose_debug=True
+    libcurl:with_verbose_strings=True
+    libcurl:with_zlib=True
+    libcurl:with_zstd=False
+    zlib:fPIC=True
+    zlib:shared=False
+
+[recipe_hash]
+
+
+[env]
+
